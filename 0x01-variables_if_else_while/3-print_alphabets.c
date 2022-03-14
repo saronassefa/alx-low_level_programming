@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main-lower and upper
+*main- lower and upper
 *
-*Return-zero
+*Return: zero
 */
 int main(void)
 {
@@ -11,7 +11,7 @@ for (n = 'a'; n <= 'z'; n++)
 {
 putchar(n);
 }
-for (n = 'A'; n<= 'Z'; n++)
+for (n = 'A'; n <= 'Z'; n++)
 {
 putchar(n);
 }
