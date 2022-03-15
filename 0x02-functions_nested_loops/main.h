@@ -1,2 +1,2 @@
 #include <stdio.h>
-_putchar();
+char _putchar();
