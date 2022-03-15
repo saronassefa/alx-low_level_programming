@@ -11,12 +11,15 @@ void jack_bauer(void)
     {
       if (i < 10)
 	{
+
 	  _putchar('0');
-	  _putchar(i);
+	  char var=i + '0';
+	  _putchar(var);
 	}
       else if (i >= 10)
 	{
-	  _putchar(i);
+	  char var=i + '0';
+	  _putchar(var);
 	}
       _putchar(':');
       for (j = 0; j < 60; j++)
@@ -24,11 +27,13 @@ void jack_bauer(void)
 	  if (j < 10)
 	    {
 	      _putchar('0');
-	      _putchar(j);
+	      char var= j + '0';
+	      _putchar(var);
 	    }
 	  else if (j >= 10)
 	    {
-	      _putchar(j);
+	      char var = j + '0';
+	      _putchar(var);
 	    }
 	  _putchar('\n');
 	}
