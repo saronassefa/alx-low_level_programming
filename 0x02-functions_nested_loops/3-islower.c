@@ -4,14 +4,14 @@
 *
 *Return: 1 & 0
 */
-int _islower( )
+int _islower(int c)
 {
-char n;
-if (n >= 'a' && n <= 'z')
+char c;
+if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
-else if (n >= 'A' && n <= 'Z')
+else if (c >= 'A' && c <= 'Z')
 {
 return (0);
 }
