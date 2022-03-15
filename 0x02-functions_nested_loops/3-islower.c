@@ -4,7 +4,7 @@
 *
 *Return: 1 & 0
 */
-int _islower(int )
+int _islower( )
 {
 char n;
 if (n >= 'a' && n <= 'z')
