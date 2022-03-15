@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*main-alphabet print
+*print_alphabet-alphabet print
 *
 *Return: void
 */
@@ -10,7 +10,7 @@ char var[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 for (i = 0; i < 26; i++)
 {
-_putchar(var[26]);
+_putchar(var[i]);
 }
 _putchar('\n');
 return;
