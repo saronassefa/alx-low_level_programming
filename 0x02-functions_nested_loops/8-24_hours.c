@@ -7,18 +7,19 @@
 void jack_bauer(void)
 {
   int i,j;
+  char var;
   for (i = 0; i < 24; i++)
     {
       if (i < 10)
 	{
 
 	  _putchar('0');
-	  char var=i + '0';
+	  var=i + '0';
 	  _putchar(var);
 	}
       else if (i >= 10)
 	{
-	  char var=i + '0';
+	  var=i + '0';
 	  _putchar(var);
 	}
       _putchar(':');
@@ -27,12 +28,12 @@ void jack_bauer(void)
 	  if (j < 10)
 	    {
 	      _putchar('0');
-	      char var= j + '0';
+	      var= j + '0';
 	      _putchar(var);
 	    }
 	  else if (j >= 10)
 	    {
-	      char var = j + '0';
+	      var = j + '0';
 	      _putchar(var);
 	    }
 	  _putchar('\n');
