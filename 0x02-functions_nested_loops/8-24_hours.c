@@ -6,7 +6,7 @@
 */
 void jack_bauer(void)
 {
-  int i;
+  int i,j;
   for (i = 0; i < 24; i++)
     {
       if (i < 10)
@@ -19,7 +19,6 @@ void jack_bauer(void)
 	  _putchar(i);
 	}
       _putchar(':');
-      int j;
       for (j = 0; j < 60; j++)
 	{
 	  if (j < 10)
