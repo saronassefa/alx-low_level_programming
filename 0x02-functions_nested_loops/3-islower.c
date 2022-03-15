@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
 *int _islower-checks lower case
