@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 *int_abs- absoulute value
+*@n: notation
 *
 *Return: int
 */
@@ -14,6 +15,10 @@ return (n);
 else if (n > 1)
 {
 return (n);
+}
+else if (n == 0)
+{
+return(0);
 }
 return (0);
 }
