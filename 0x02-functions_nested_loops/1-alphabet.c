@@ -4,9 +4,14 @@
 *
 *Return:0
 */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
- _putchar('\n');
+char var[26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
+for (i = 0; i < 26; i++)
+{
+_putchar(var[26]);
+}
+_putchar('\n');
 return (0);
 }
