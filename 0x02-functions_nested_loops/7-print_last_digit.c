@@ -1,13 +1,11 @@
 #include "main.h"
 /**
-*print_last_digit
+*print_last_digit- prints last dig
 *@n: new
 *
-*Return:
+*Return: int
 */
 int print_last_digit(int n)
 {
-int N;
-N = n % 10;
-return (N);
+return (n % 10);
 }
