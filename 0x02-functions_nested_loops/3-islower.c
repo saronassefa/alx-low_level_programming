@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*int _islower-checks lower case
+*_islower-checks lower case
 *
 *Return: 1 & 0
 */
@@ -14,5 +14,5 @@ else if (c >= 'A' && c <= 'Z')
 {
 return (0);
 }
- return (0);
+return (0);
 }
