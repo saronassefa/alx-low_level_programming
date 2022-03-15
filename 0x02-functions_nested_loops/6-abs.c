@@ -4,9 +4,8 @@
 *
 *Return: int
 */
-int _abs( )
+int _abs(int n)
 {
-int n;
 if (n < 1)
 {
 n = -1 * n;
