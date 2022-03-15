@@ -6,12 +6,7 @@
 */
 int main(void)
 {
-char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-int i;
-for (i = 0; i < 26; i++)
-{
-_putchar(alpha[i]);
-}
-_putchar('\n');
+print_alphabet();
+ _putchar('\n');
 return (0);
 }
