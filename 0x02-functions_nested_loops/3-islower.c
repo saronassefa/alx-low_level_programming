@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 *_islower-checks lower case
+*@c: c is ascii
 *
 *Return: 1 & 0
 */
