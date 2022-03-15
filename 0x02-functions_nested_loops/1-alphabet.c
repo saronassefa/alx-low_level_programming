@@ -14,3 +14,4 @@ _putchar(alpha[i]);
 }
 _putchar('\n');
 return (0);
+}
