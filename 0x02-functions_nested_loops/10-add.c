@@ -1,9 +1,9 @@
 #include "main.h"
 /**
 *add- adds
-*@a-intger
+*@a:intger
 *
-*@b-intiger
+*@b:intiger
 *
 *Return:0
 */
