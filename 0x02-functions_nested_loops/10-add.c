@@ -1,12 +1,13 @@
 #include "main.h"
 /**
 *add- adds
-*@a-int
-*@b-int
+*@a-intger
+*
+*@b-intiger
 *
 *Return:0
 */
-int add(int a,int b)
+int add(int a, int b)
 {
 int num = a + b;
 return (num);
