@@ -4,7 +4,7 @@
 *
 *Return:0
 */
-int add(int,int)
+int add(int a,int b)
 {
   int num = a + b;
   return (num);
