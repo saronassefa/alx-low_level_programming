@@ -12,4 +12,5 @@ for (i = 0; i <= 9; i++)
 print("%d", i)
 _putchar('\n');
 }
+return;
 }
