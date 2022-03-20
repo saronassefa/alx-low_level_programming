@@ -9,8 +9,8 @@ void print_numbers(void)
 int i;
 for (i = 0; i <= 9; i++)
 {
-print("%d", i)
-_putchar('\n');
+print("%d", i);
 }
+_putchar('\n');
 return;
 }
