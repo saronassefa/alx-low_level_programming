@@ -12,7 +12,7 @@ while (i < 0)
 if (n > 0)
 {
 _putchar(95);
-i++;
+i += 1;
 }
 else
 {
